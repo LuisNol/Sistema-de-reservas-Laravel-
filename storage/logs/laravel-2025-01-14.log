@@ -1,0 +1,37 @@
+[2025-01-14 17:13:18] production.ERROR: Maximum execution time of 60 seconds exceeded {"userId":2,"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at C:\\laragon\\www\\Gotrip.1.6.1\\vendor\\symfony\\http-foundation\\RedirectResponse.php:19)
+[stacktrace]
+#0 {main}
+"} 
+[2025-01-14 17:31:41] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Your has created a plan request",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:8000\/user\/my-plan",
+    "idNotification": "d8661e34-99a6-459d-9026-f68d97067d6c",
+    "userId": 2,
+    "socket": null
+}  
+[2025-01-14 17:31:41] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vendor 01 has created a plan request",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:8000\/admin\/module\/user\/plan-report",
+    "idNotification": "738699bc-e49d-4a41-b54b-9cb78dbc7f01",
+    "socket": null
+}  
+[2025-01-14 17:58:50] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Crowne Plaza Hotel 2026 was updated to Publish by Vendor 01",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:8000\/admin\/module\/hotel?id=40",
+    "idNotification": "c5cbb1bb-463c-4af0-86b9-0ad220006219",
+    "socket": null
+}  
+[2025-01-14 18:02:00] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Stewart Hotel 2026. was updated to Publish by Vendor 01",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/127.0.0.1:8000\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/127.0.0.1:8000\/admin\/module\/hotel?id=16",
+    "idNotification": "c119468f-7987-41e1-9799-1b3635f87513",
+    "socket": null
+}  
